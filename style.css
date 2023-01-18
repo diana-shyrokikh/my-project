@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  color: rgb(68, 143, 179);
+  background-color: rgb(218, 229, 235);
+}
+
+strong{
+  font-weight: 500;
+}
+
+.page {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*#region about */
+.about {
+  display: flex;
+  padding: 32px 40px 24px 40px;
+  background-color: rgb(30, 162, 223);
+  color: white;
+}
+
+.about__name {
+  margin: 0 0 8px 0;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.about__role {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.about__text {
+  margin: 0;
+  font-style: italic;
+}
+
+.about__photo {
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+/* #endregion*/
+
+.main {
+  padding: 0 40px;
+  background-color: aliceblue;
+}
+
+
+/* #region contacts */
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.contacts__link {
+  color: rgb(30, 162, 223);
+  text-decoration: none;
+}
+/* #endregion */
+
+/* #region info */
+.info {
+  border-top: 2px solid rgb(30, 162, 223);
+  padding: 55px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__title {
+  margin: 5px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  color: rgb(30, 162, 223);
+}
+
+.info__content {
+  width: 500px;
+}
+/* #endregion */
+
+/* #region study */
+.study {
+  margin-top: 24px;
+  border-left: 1px dashed rgba(30, 162, 223, 0.342);
+  padding: 0 8px 0 8px;
+}
+
+.study:first-child {
+  margin-top: 0;
+}
+
+.study__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.study__description {
+  margin: 0;
+  margin-top: 8px;
+}
+/* #endregion */
+
+/* #region skills */
+.skills {
+  display: flex;
+}
+
+.skills__list {
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  border-left: 1px dashed rgba(30, 162, 223, 0.342);
+  padding: 0 8px 0 8px;
+  list-style: none;
+}
+
+.skills__item {
+  margin-top: 8px;
+}
+
+.skills__item:first-child {
+  margin-top: 0;
+}
+/* #endregion */
+
+/* #region tools */
+.tools {
+  display: flex;
+}
+
+.tools__list {
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  border-left: 1px dashed rgba(30, 162, 223, 0.342);
+  padding: 0 8px 0 8px;
+  list-style: none;
+}
+
+.tools__item {
+  margin-top: 8px;
+}
+
+.tools__item:first-child {
+  margin-top: 0;
+}
+/* #endregion */
+
+
